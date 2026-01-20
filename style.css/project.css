@@ -367,7 +367,43 @@ iframe {
     width: 16px;
     background-size: cover;
 }
+.host_section{
+    padding: 40px 200px;
+}
+.host_section h1{
+    text-align: center;
+}
+.mr_host{
+    background-color: var(--third_color);
+    display: flex;
+    padding: 40px;
+    gap: 20px;
+    margin-top: 30px;
+}
+.host_text h4{
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.host_text p{
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin-top: 10px;
 
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+.icons img{
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    border: 2px solid tomato;
+    padding: 5px;
+    border-radius: 50%;
+}
 /* #for small device */
 
 @media screen and (max-width: 576px) {
@@ -474,6 +510,21 @@ iframe {
         background-size: cover;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
+    }
+    .mr_host{
+    /* background-color: var(--third_color); */
+    display: block;
+    text-align: center;
+    /* padding: 40px;  */
+    gap: 20px;
+    margin-top: 30px;
+    }
+    .host_section{
+        padding: 20px 20px;
+    }
+    .icons{
+        justify-content: center;
+        align-items: center;
     }
 
 }
